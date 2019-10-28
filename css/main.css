@@ -85,7 +85,7 @@ nav a:active {
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: center;
-    color: #41FF00;
+    color: #bc13fe;
 }
 
 #bioIntro {
@@ -127,7 +127,7 @@ nav a:active {
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: center;
-    color: #4666FF;
+    color: #bc13fe;
 }
 
 .projectPhotos {
@@ -156,6 +156,7 @@ nav a:active {
 
 .p-image {
     margin-bottom: 20px;
+    border: 5px solid #bc13fe;
 }
 
 
