@@ -8,62 +8,241 @@
     <link rel='stylesheet' href='css/main.css'/>
 </head>
 <body>
-    <nav>
-        <h1 class="nav-title">Michael Martinez</h1>
-        <a href="projects.html">PROJECTS</a>
-        <a href="about.html">ABOUT</a>
-        <a href="index.html">HOME</a>
-    </nav>
+    
+    <div class="nav">
+        <a class="nav__link" href="index.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">HOME_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r0</span>
+            </button>
+        </a>
 
-    <section id="projects">
-        <h1 id="projects-title">My Projects</h1>
-        <div class="projectPhotos">
-            <div class="container">
-                <div class="content">
-                    <img class="p-image" src="images/Checker Screenshot.png" alt="Checkers" height="275px">
-                </div>
-                <a class="view-link"href="https://github.com/Mad-Hatter-1865/Checkers" target="_blank">See More</a>
-            </div>
+        <a class="nav__link" href="about.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">ABOUT_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r1</span>
+            </button>
+        </a>
 
-            <div class="container">
-                <div class="content">
-                    <img class="p-image" src="images/GameReview.png" alt="Neon Game Reviews" height="275px">
-                </div>
-                    <a class="view-link"href="https://github.com/Mad-Hatter-1865/Project-4" target="_blank">See More</a>
-                </div>
+        <a class="nav__link" href="projects.html">
+            <button class="nav__btn__selected">
+                <span class="nav__btn__content">PROJECTS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r2</span>
+            </button>
+        </a>
+    </div>
 
+    <div class="project__container">
+        <h2 class="project__title">PROJECT NAME: VOLUN-GO!_</h2>
+        <hr>
+        <div class="project__image__container">
+            <img class="project__image" src="images/AddEvent.png" alt="Volun-Go!">
+        </div>
+        <div class="project__description__container">
+            <div class="description__container">
+                <h2>DESCRIPTION_</h2>
+                <hr>
+                <p>
+                    The purpose of the app is to provide a resource for community-minded individuals
+                    to locate and/or advertise volunteer opportunities. Many people want to give back
+                    to their community (or are part of a group that requires community service)
+                    but aren't aware of all the opprtunities that are around them.
+                    <br><br>
+                    You can browse the opportunities already entered on the site and add the event
+                    to your account page if you want to participate in that volunteer opportunity.
+                    If you want to organize an opportunity that doesn't already exist, you can 
+                    create the event for other users to see and select. If you find an 
+                    organization whose events really speak to you, you can click a link 
+                    that redirects you to their website for more information.
+                    <br><br>
+                </p>
+                
             </div>
         </div>
+    </div>
 
-        <div class="projectPhotos">
-            <div class="container">
-                <div class="content">
-                    <img class="p-image" src="images/VolunGo.jpeg" alt="Checkers" height="275px" width="281.97px">
-                </div>
-                <a class="view-link"href="https://github.com/Mad-Hatter-1865/Volun_Go" target="_blank">See More</a>
-            </div>
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/Volun_Go" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://volungo.herokuapp.com" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">VOLUN-GO!_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+    </div>
 
-            <div class="container">
-                <div class="content">
-                    <img class="p-image" src="images/NeonTravel.png" alt="Neon Travel" height="275px" width="281.97px">
-                </div>
-                    <a class="view-link"href="https://github.com/Mad-Hatter-1865/project-vacations" target="_blank">See More</a>
-                </div>
-
+    <div class="project__container">
+        <h2 class="project__title">PROJECT NAME: CHESS_</h2>
+        <hr>
+        <div class="project__image__container">
+            <img class="project__image" src="images/Chess.png" alt="Chess">
+        </div>
+        <div class="project__description__container">
+            <div class="description__container">
+                <h2>DESCRIPTION_</h2>
+                <hr>
+                <p>
+                    Chess is a two-player strategy board game played on a checkered board
+                    with 64 squares arranged in an 8x8 grid. Players alternate turns per move.
+                    A player may not move an opponent's piece. A move consits of moving a piece 
+                    to an unoccupied square or one that is occupied by an opponent's piece, which 
+                    is captured and removed from the game. Each piece has it's own moveset.
+                </p>
             </div>
         </div>
+    </div>
 
-        <div class="projectPhotos">
-            <div class="container">
-                <div class="content">
-                    <img class="p-image" src="images/Chess.png" alt="Checkers" height="275px" width="400px">
-                </div>
-                <a class="view-link"href="https://github.com/Mad-Hatter-1865/Chess" target="_blank">See More</a>
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/Chess" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://mad-hatter-1865.github.io/Chess/" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">CHESS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="project__container">
+        <h2 class="project__title">PROJECT NAME: NEON GAME REVIEWS_</h2>
+        <hr>
+        <div class="project__image__container">
+            <img class="project__image" src="images/GameReview.png" alt="Neon Game Reviews">
+        </div>
+        <div class="project__description__container">
+            <div class="description__container">
+                <h2>DESCRIPTION_</h2>
+                <hr>
+                <p>
+                    This app will allow a user to write a review of any video game where other users
+                    will then be able view that review.
+                    <br><br>
+                    You can browse a list of reviews created by other users and also browse a list
+                    of reviews that you have made on your account. If you want to create a review
+                    for game that has not been written yet, you can write a review that will be able 
+                    to be seen by you and other users.
+                    <br><br>
+                </p>
             </div>
+        </div>
+    </div>
 
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/Project-4" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://neon-games.herokuapp.com" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">NEON GAME REVIEWS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+    </div>
 
+    <div class="project__container">
+        <h2 class="project__title">PROJECT NAME: CHECKERS_</h2>
+        <hr>
+        <div class="project__image__container">
+            <img class="project__image" src="images/Checker Screenshot.png" alt="Checkers">
+        </div>
+        <div class="project__description__container">
+            <div class="description__container">
+                <h2>DESCRIPTION_</h2>
+                <hr>
+                <p>
+                    Checkers is played by two opponents, on opposite sides of the gameboard. 
+                    One player has the dark pieces; the other has the light pieces.
+                    <br><br>
+                    Players alternate turns. A player may not move an opponent's piece. 
+                    A move consists of moving a piece diagonally to an adjacent unoccupied 
+                    square. If the adjacent square contains an opponent's piece, and the 
+                    square immediately beyond it is vacant, the piece may be captured 
+                    (and removed from the game) by jumping over it.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
 
-    </section>
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/Checkers" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://mad-hatter-1865.github.io/Checkers/" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">CHECKERS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="project__container">
+        <h2 class="project__title">PROJECT NAME: NEON TRAVELS_</h2>
+        <hr>
+        <div class="project__image__container">
+            <img class="project__image" src="images/NeonTravel.png" alt="Neon Travels">
+        </div>
+        <div class="project__description__container">
+            <div class="description__container">
+                <h2>DESCRIPTION_</h2>
+                <hr>
+                <p>
+                    The app allows a user to document vacations that they have experienced 
+                    where they and other users can view.
+                    <br><br>
+                    You can browse a list of vacations that other users have documented 
+                    and view them. The user will be able to create a vacation module where
+                    they will give it a name and they will be able to type paragraphs describing
+                    their trip. Once a vacation module is created the user will be able to add
+                    destinations to that vacation module.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/project-vacations" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://neon-vacation-log.herokuapp.com/users" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">NEON TRAVELS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+    </div>
 
 </body>
 </html>

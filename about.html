@@ -8,37 +8,50 @@
     <link rel='stylesheet' href='css/main.css'/>
 </head>
 <body>
-    <nav>
-        <h1 class="nav-title">Michael Martinez</h1>
-        <a href="projects.html">PROJECTS</a>
-        <a href="about.html">ABOUT</a>
-        <a href="index.html">HOME</a>
-    </nav>
+    
+    <div class="nav">
+        <a class="nav__link" href="index.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">HOME_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r0</span>
+            </button>
+        </a>
 
-    <section id="bioBody">
-        <div id="bio">
-            <h1 id="about-title">About Michael</h1>
-            <h2 id="bioIntro">
-                I'm a full stack software engineer with a background
-                in web development.
-                My goal is to help people and organizations solve problems
-                by beibg goal oriented and organized.
-            </h2>
+        <a class="nav__link" href="about.html">
+            <button class="nav__btn__selected">
+                <span class="nav__btn__content">ABOUT_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r1</span>
+            </button>
+        </a>
 
-            <h4 id="bioStatement">
-                I have experience with HTML, CSS, JavaScript, React JS,
-                Node JS, Express JS, Python, Django, MongoDB, Mongoose,
-                and PostgreSQL. I'm always willing to solve any problem regardless
-                of the difficulty that it presents with grit and determination.
-            </h4>
+        <a class="nav__link" href="projects.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">PROJECTS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r2</span>
+            </button>
+        </a>
+    </div>
+
+    <div id="who__container">
+        <h2 id="who">WHO I AM_</h2>
+        <hr>
+        <div class="who__description__container">
+            <div class="who__description">
+                <p>
+                    I'm a full stack software engineer with a background
+                    in web development.
+                    My goal is to help people and organizations solve problems
+                    by being goal oriented and organized.
+                </p>
+            </div>
         </div>
-    </section>
-
-    <section id="photo">
-        <div>
-            <img id="about-photo"src="images/YBPhoto.jpeg" alt="Michael Martinez">
+        <div class="self__image__container">
+            <img class="self__image" src="images/20190723_134259 (5).jpg" alt="Michael Martinez">
         </div>
-    </section>
+    </div>
 
 </body>
 </html>

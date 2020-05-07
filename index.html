@@ -8,17 +8,85 @@
     <link rel='stylesheet' href='css/main.css'/>
 </head>
 <body>
-    <nav>
-        <h1 class="nav-title">Michael Martinez</h1>
-        <a href="projects.html">PROJECTS</a>
-        <a href="about.html">ABOUT</a>
-        <a href="index.html">HOME</a>
-    </nav>
+    
+    <div class="nav">
+        <a class="nav__link" href="index.html">
+            <button class="nav__btn__selected">
+                <span class="nav__btn__content">HOME_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r0</span>
+            </button>
+        </a>
 
-    <div class="home">
-        <h2 id="name">Hi, I'm Michael</h2>
-        <h2 id="brand">Software Engineer</h2>
-        <a id="button" href="projects.html">MY PROJECTS</a>
+        <a class="nav__link" href="about.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">ABOUT_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r1</span>
+            </button>
+        </a>
+
+        <a class="nav__link" href="projects.html">
+            <button class="nav__btn">
+                <span class="nav__btn__content">PROJECTS_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">r2</span>
+            </button>
+        </a>
+    </div>
+
+    <div id="home__about__container">
+        <h2 id="home__about">HELLO, I'M MICHAEL_</h2>
+        <hr>
+        <div class="home__about__description__container">
+            <div class="home__about__description">
+                <p>
+                    I'm a full stack web developer from Dallas, TX.
+                    My goal is to help people and organizations solve problems
+                    by being goal oriented and organized. 
+                </p>
+            </div>
+        </div>
+        <div class="self__image__container">
+            <img class="self__image" src="images/20190723_134259 (5).jpg" alt="Michael Martinez">
+        </div>
+    </div>
+
+    <div id="featured__project__container">
+        <h2 id="featured__project">FEATURED PROJECT_</h2>
+        <hr>
+        <div class="featured__image__container">
+            <img class="featured__image" src="images/AddEvent.png" alt="Featured Project">
+        </div>
+        <div class="featured__project__description__container">
+            <div id="featured__project__description">
+                <h2>PROJECT NAME: VOLUN-GO!_</h2>
+                <hr>
+                <p>
+                    The purpose of the app is to provide a resource for community-minded individuals
+                    to locate and/or advertise volunteer opportunities. Many people want to give back
+                    to their community (or are part of a group that requires community service)
+                    but aren't aware of all the opprtunities that are around them.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="image__links">
+        <a class="nav__link" href="https://github.com/Mad-Hatter-1865/Volun_Go" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">MORE INFO_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
+        <a class="nav__link" href="https://volungo.herokuapp.com" target="_blank">
+            <button class="nav__btn">
+                <span class="nav__btn__content">VOLUN-GO!_</span>
+                <span class="nav__btn__glitch"></span>
+                <span class="nav__btn__label">l1</span>
+            </button>
+        </a>
     </div>
 
 </body>
